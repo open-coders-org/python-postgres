@@ -68,7 +68,7 @@ if __name__ == "__main__":
                 id_doctor=idoctor,
             )
         else:
-            print("Debe ingresar todos los campos")
+            print("Debe ingresar todos los campos: ")
     elif command == "eliminard":
         if idoctor:
             cruddoctor.eliminar(id_doctor=idoctor)
